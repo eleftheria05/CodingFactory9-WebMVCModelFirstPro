@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0395\u03BB\u03B5\u03C5\u03B8\u03B5\u03C1\u03AF\u03B1\\source\\repos\\Web9MvcModelFirstPro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22A0D194-DEDF-44B0-8C73-B7CE6A01604F}|SchoolApp.Tests\\SchoolApp.Tests.csproj|c:\\users\\\u03B5\u03BB\u03B5\u03C5\u03B8\u03B5\u03C1\u03AF\u03B1\\source\\repos\\web9mvcmodelfirstpro\\schoolapp.tests\\controllers\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A0D194-DEDF-44B0-8C73-B7CE6A01604F}|SchoolApp.Tests\\SchoolApp.Tests.csproj|solutionrelative:schoolapp.tests\\controllers\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A0D194-DEDF-44B0-8C73-B7CE6A01604F}|SchoolApp.Tests\\SchoolApp.Tests.csproj|c:\\users\\\u03B5\u03BB\u03B5\u03C5\u03B8\u03B5\u03C1\u03AF\u03B1\\source\\repos\\web9mvcmodelfirstpro\\schoolapp.tests\\schoolapp.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{22A0D194-DEDF-44B0-8C73-B7CE6A01604F}|SchoolApp.Tests\\SchoolApp.Tests.csproj|solutionrelative:schoolapp.tests\\schoolapp.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\\u0395\u03BB\u03B5\u03C5\u03B8\u03B5\u03C1\u03AF\u03B1\\source\\repos\\Web9MvcModelFirstPro\\SchoolApp.Tests\\Controllers\\UserControllerTests.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Tests\\Controllers\\UserControllerTests.cs",
+              "ToolTip": "C:\\Users\\\u0395\u03BB\u03B5\u03C5\u03B8\u03B5\u03C1\u03AF\u03B1\\source\\repos\\Web9MvcModelFirstPro\\SchoolApp.Tests\\Controllers\\UserControllerTests.cs",
+              "RelativeToolTip": "SchoolApp.Tests\\Controllers\\UserControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T19:58:10.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SchoolApp.Tests",
+              "DocumentMoniker": "C:\\Users\\\u0395\u03BB\u03B5\u03C5\u03B8\u03B5\u03C1\u03AF\u03B1\\source\\repos\\Web9MvcModelFirstPro\\SchoolApp.Tests\\SchoolApp.Tests.csproj",
+              "RelativeDocumentMoniker": "SchoolApp.Tests\\SchoolApp.Tests.csproj",
+              "ToolTip": "C:\\Users\\\u0395\u03BB\u03B5\u03C5\u03B8\u03B5\u03C1\u03AF\u03B1\\source\\repos\\Web9MvcModelFirstPro\\SchoolApp.Tests\\SchoolApp.Tests.csproj",
+              "RelativeToolTip": "SchoolApp.Tests\\SchoolApp.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-25T19:16:58.34Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

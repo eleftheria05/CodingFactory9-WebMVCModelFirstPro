@@ -1,0 +1,16 @@
+2026-04-25T20:18:21.5128107+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.9.1+cb5afc3bb9bb01ebd75b57f89e8358b914ee2a49
+2026-04-25T20:18:21.5251889+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-04-25T20:18:21.5259477+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-04-25T20:18:21.5259535+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 20:18:21.494
+2026-04-25T20:18:21.5260251+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 14164
+2026-04-25T20:18:21.5260500+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 10.0.6
+2026-04-25T20:18:21.5260627+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.6\System.Private.CoreLib.dll
+2026-04-25T20:18:21.5260695+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-04-25T20:18:21.5261426+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\Ελευθερία\source\repos\Web9MvcModelFirstPro\SchoolApp.Tests\bin\Debug\net10.0\SchoolApp.Tests.dll
+2026-04-25T20:18:21.5262997+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\Ελευθερία\source\repos\Web9MvcModelFirstPro\SchoolApp.Tests\bin\Debug\net10.0\Log --results-directory C:\Users\Ελευθερία\source\repos\Web9MvcModelFirstPro\TestResults --client-port 53416'
+2026-04-25T20:18:21.5269990+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-04-25T20:18:21.5446378+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-04-25T20:18:21.5581512+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-04-25T20:18:21.7550140+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '3.2.2' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2026-04-25T20:18:21.7644675+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v3.2.2+728c1dce01 (64-bit .NET 10.0.6)
+2026-04-25T20:18:24.8937017+00:00 Microsoft.Testing.Extensions.Telemetry.AppInsightsProvider WARNING Telemetry task didn't flush after '3', some payload could be lost

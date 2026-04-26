@@ -1,0 +1,163 @@
+﻿﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Student Dashboard";
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="h3 mb-0">Student Dashboard</h1>
+        <div class="text-muted">Welcome back, Student!</div>
+    </div>
+
+    <!-- Student Overview -->
+    <div class="row mb-4">
+        <div class="col-md-4 mb-3">
+            <div class="card border-primary">
+                <div class="card-body text-center">
+                    <i class="fas fa-book fa-2x text-primary mb-2"></i>
+                    <h5>Enrolled Courses</h5>
+                    <h3 class="text-primary">5</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card border-success">
+                <div class="card-body text-center">
+                    <i class="fas fa-tasks fa-2x text-success mb-2"></i>
+                    <h5>Pending Assignments</h5>
+                    <h3 class="text-success">3</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card border-info">
+                <div class="card-body text-center">
+                    <i class="fas fa-chart-line fa-2x text-info mb-2"></i>
+                    <h5>Current GPA</h5>
+                    <h3 class="text-info">3.75</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Today's Classes -->
+        <div class="col-lg-6 mb-4">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h6 class="m-0 font-weight-bold"><i class="fas fa-calendar-day me-2"></i>Today's Classes</h6>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Course</th>
+                                    <th>Room</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>9:00 AM</td>
+                                    <td>Mathematics 101</td>
+                                    <td>Room 201</td>
+                                </tr>
+                                <tr>
+                                    <td>11:00 AM</td>
+                                    <td>Computer Science</td>
+                                    <td>Lab A</td>
+                                </tr>
+                                <tr>
+                                    <td>2:00 PM</td>
+                                    <td>Physics</td>
+                                    <td>Room 305</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Upcoming Assignments -->
+        <div class="col-lg-6 mb-4">
+            <div class="card">
+                <div class="card-header bg-warning text-white">
+                    <h6 class="m-0 font-weight-bold"><i class="fas fa-exclamation-circle me-2"></i>Upcoming Deadlines</h6>
+                </div>
+                <div class="card-body">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h6 class="mb-1">Math Homework #5</h6>
+                                <small class="text-danger">Due Tomorrow</small>
+                            </div>
+                            <p class="mb-1">Calculus problems chapter 3</p>
+                            <small>Mathematics 101</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h6 class="mb-1">Programming Project</h6>
+                                <small class="text-warning">Due in 3 days</small>
+                            </div>
+                            <p class="mb-1">Web API development</p>
+                            <small>Computer Science</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h6 class="mb-1">Physics Lab Report</h6>
+                                <small class="text-info">Due next week</small>
+                            </div>
+                            <p class="mb-1">Experiment analysis</p>
+                            <small>Physics</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-light">
+                    <h6 class="m-0 font-weight-bold">Quick Access</h6>
+                </div>
+                <div class="card-body">
+                    <div class="row text-center">
+                        <div class="col-md-3 mb-3">
+                            <a href="@Url.Action("Index", "MyCourses")" class="btn btn-outline-primary btn-block">
+                                <i class="fas fa-book fa-2x mb-2"></i><br>
+                                My Courses
+                            </a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <a href="@Url.Action("Index", "Assignments")" class="btn btn-outline-success btn-block">
+                                <i class="fas fa-tasks fa-2x mb-2"></i><br>
+                                Assignments
+                            </a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <a href="@Url.Action("Index", "Grades")" class="btn btn-outline-info btn-block">
+                                <i class="fas fa-chart-bar fa-2x mb-2"></i><br>
+                                Grades
+                            </a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <a href="@Url.Action("Index", "Resources")" class="btn btn-outline-warning btn-block">
+                                <i class="fas fa-folder fa-2x mb-2"></i><br>
+                                Resources
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
